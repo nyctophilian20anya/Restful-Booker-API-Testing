@@ -17,15 +17,14 @@ Comprehensive API test suite for Restful Booker API covering Auth, Booking CRUD 
 - Environment variables
 - Newman CLI execution
 ## How to Run
-Install Newman:
-npm install -g newman
+Install Newman:npm install -g newman
 
-Install HTML Reporter:
-npm install -g newman-reporter-html
-Run Collection:
-newman run "Restful-Booker-Collection.json" -e "RestfulBooker-Env.json" --insecure
-Run with HTML Report:
-newman run "Restful-Booker-Collection.json" -e "RestfulBooker-Env.json" --insecure -r html --reporter-html-export RestfulBooker-Report.html
+Install HTML Reporter:npm install -g newman-reporter-html
+
+Run Collection:newman run "Restful-Booker-Collection.json" -e "RestfulBooker-Env.json" --insecure
+
+Run with HTML Report:newman run "Restful-Booker-Collection.json" -e "RestfulBooker-Env.json" --insecure -r html --reporter-html-export RestfulBooker-Report.html
+
 ## Test Results
 - Total Requests: 11
 - Total Assertions: 27
