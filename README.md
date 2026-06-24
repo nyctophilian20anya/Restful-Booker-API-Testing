@@ -19,6 +19,7 @@ Comprehensive API test suite for Restful Booker API covering Auth, Booking CRUD 
 ## How to Run
 Install Newman:
 npm install -g newman
+
 Install HTML Reporter:
 npm install -g newman-reporter-html
 Run Collection:
