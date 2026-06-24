@@ -49,3 +49,13 @@ Cause: Token is session-based and expires between requests
 Resolution: Manually run Generate Token before collection run
 
 CI/CD Fix: Use pre-request script to auto-refresh token in pipeline
+
+## AUTHOR
+**TANYA VERMA**
+Senior SDET | Wipro Technologies
+GitHub: https://github.com/nyctophilian20anya
+Linkedin: https://www.Linkedin.com/in/tanya-verma-8514261ba?
+
+##LICENSE
+This project is licensed under the MIT License - see the LICENSE file for details.
+@2026 TANYA VERMA. ALL RIGHTS RESERVED.
