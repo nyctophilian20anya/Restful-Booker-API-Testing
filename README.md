@@ -29,14 +29,23 @@ Run with HTML Report:newman run "Restful-Booker-Collection.json" -e "RestfulBook
 - Total Requests: 11
 - Total Assertions: 27
 - Pass Rate: 89%
+  
 ## Test Report
 Open RestfulBooker-Report.html in browser to view detailed test results.
+
 ## Known Issues & Resolutions
 SSL Certificate Error (Corporate Network)
+
 Error: unable to get local issuer certificate
+
 Cause: Corporate network blocks SSL verification
+
 Resolution: Use --insecure flag with Newman
+
 Update Booking - 403 Forbidden (Newman)
+
 Cause: Token is session-based and expires between requests
+
 Resolution: Manually run Generate Token before collection run
+
 CI/CD Fix: Use pre-request script to auto-refresh token in pipeline
